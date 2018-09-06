@@ -1,4 +1,4 @@
-package com.dev.won.listviewexample;
+package com.dev.won.listviewexample.data;
 
 public class Item_ListView {
     private String tv_listView_title;

@@ -1,14 +1,15 @@
-package com.dev.won.listviewexample;
+package com.dev.won.listviewexample.adpater;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
+import com.dev.won.listviewexample.data.Item_ListView;
+import com.dev.won.listviewexample.R;
+
 import java.util.List;
 
 public class Adapter_ListView extends BaseAdapter {

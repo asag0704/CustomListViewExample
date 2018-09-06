@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dev.won.listviewexample.CheckableLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/tv_checkable_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:layout_gravity="center_vertical"/>
+
+    <CheckBox
+        android:id="@+id/cb_checkable_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"/>
+
+</com.dev.won.listviewexample.CheckableLinearLayout>

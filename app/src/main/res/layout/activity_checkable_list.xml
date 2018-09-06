@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    tools:context=".CheckableListViewActivity">
 
-    <Button
-        android:id="@+id/bt_customList"
+    <ListView
+        android:id="@+id/lv_checkable"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="customListView"/>
+        android:choiceMode="singleChoice"/>
 
-    <Button
-        android:id="@+id/bt_checkableList"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CheckableListView"/>
-
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>
