@@ -32,7 +32,7 @@ public class CheckableLinearLayout extends LinearLayout implements Checkable {
     public void toggle() {
         CheckBox cb_checkable_checkbox = findViewById(R.id.cb_checkable_checkbox);
 
-        setChecked(cb_checkable_checkbox.isChecked() ? false : true);
+        setChecked(!cb_checkable_checkbox.isChecked());
     }
 
     // checked 상태를 checked 변수대로 설정
